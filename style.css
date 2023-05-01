@@ -1,0 +1,34 @@
+
+body{
+    background-color: rgb(111, 0, 185);
+}
+header{
+    color: white;
+    text-align: center;
+}
+ 
+section{
+    font: normal 13pt arial;
+    background-color: blanchedalmond;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    position: relative;
+}
+
+
+footer{
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+#resultado{
+    text-align: center;
+}
+img#foto{
+    height: 50%;
+    width: 100%;
+}

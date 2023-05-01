@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 2 AULA 13</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de Nascimento <input type="text" name="nascimento" id="nascimento"></p>
+           <p>    Sexo 
+            <input type="radio" name="radiosex" id="sexomasc">
+            <label for="masc"></label> MASCULINO
+            <input type="radio" name="radiosex" id="sexofem">
+            <label for="fem"></label> FEMININO</p>
+        </div>
+        <div id="botao">
+            <input type="button" value="Verificar" id="verificar" onclick="calc_nascimento()">
+        </div>
+        <div id="resultado">
+            <p>Preencha todos os dados acima</p> 
+        </div>
+    </section>
+
+    <footer>
+        &copy; AG NEWS
+    </footer>
+    <script src="main.js"></script>
+    
+</body>
+</html>
